@@ -5,7 +5,7 @@ def updateSql(uname,won,level):
     db = mysql.connector.connect(host='localhost',
                                  database='bdata',
                                  user='root',
-                                 password='Annapoorna@2004')
+                                 password='***************')
 
     mycursor = db.cursor()
     if won==True:
